@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>đây là dãy fibonacci :</p>
+</body>
+<script>
+
+    let n1=0;
+    let n2=1;
+    document.write(n1);
+    document.write(",");
+    document.write(n2);
+    let n3;
+    let num=Number(prompt("nhap so luong so finabocci:"));
+    for (i=2;i<num;i++){
+        n3=n1+n2;
+        document.write(",");
+        document.write(n3);
+        n1=n2;
+        n2=n3;
+    }
+</script>
+</html>
